@@ -65,7 +65,6 @@ class CardActivity : BaseActivity() {
         binding.tvSelectMembers.setOnClickListener {
             addMemberCards()
         }
-        // show members in the cards
         showMembers()
     }
     private fun showMembers(){
